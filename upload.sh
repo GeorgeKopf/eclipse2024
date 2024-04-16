@@ -5,7 +5,7 @@ for j in {A..Z}; do
     git add *
     git commit -m "pictures"
     git push
-    if [ "$j" == "E" ]; then
+    if [ "$j" == "Z" ]; then
         break 2
     fi
 done
